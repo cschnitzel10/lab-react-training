@@ -6,11 +6,13 @@ import Random from './components/Random';
 import CreditCard from './components/CreditCard';
 import DriverCard from './components/DriverCard';
 import Rating from './components/Rating';
+import LikeButton from './components/LikeButton';
 
 function App() {
   return (
 <>
 
+<LikeButton/>
 
 <Rating>0</Rating>
 <Rating>1.49</Rating>
